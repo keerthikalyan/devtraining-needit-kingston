@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Additional Comments" max_length="40" name="additionalcomments" type="string"/>
+        <element label="Registered" max_length="40" name="registered" type="boolean"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+    </element>
+</database>
